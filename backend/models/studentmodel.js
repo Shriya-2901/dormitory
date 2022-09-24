@@ -11,7 +11,7 @@ const studentSchema = new Schema({
   rollNo: {
     type: String,
     required: true,
-    // unique: true,
+    unique: true,
   },
 
   password: {
