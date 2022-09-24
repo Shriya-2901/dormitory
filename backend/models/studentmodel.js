@@ -11,7 +11,7 @@ const studentSchema = new Schema({
   rollNo: {
     type: String,
     required: true,
-    unique: true,
+    // unique: true,
   },
 
   password: {
@@ -20,6 +20,10 @@ const studentSchema = new Schema({
   },
 
   hostel: {
+    type: String,
+    required: true,
+  },
+  role: {
     type: String,
     required: true,
   },
