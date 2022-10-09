@@ -1,23 +1,21 @@
-const express = require('express')
+const express = require("express");
 
 //controller functions
 const {
-    loginStudent,
-    dashboard,
-    profile
-} = require('../controllers/studentController')
+  loginStudent,
+  dashboard,
+  profile,
+} = require("../controllers/studentController");
 
-const router = express.Router()
+const router = express.Router();
 
 //login route
-router.get('/login', loginStudent)
+router.get("/login", loginStudent);
 
 //dashboard route
-router.get('/dashboard', dashboard)
-
+router.get("/dashboard", dashboard);
 
 //profile route
-router.get('/profile', profile)
+router.get("/profile", profile);
 
-
-module.exports = router
+module.exports = router;

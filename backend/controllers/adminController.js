@@ -4,21 +4,21 @@
 
 //login admin
 const loginadmin = async (req, res) => {
-  res.json({message: 'login admin'})
-}
+  res.json({ message: "login admin" });
+};
 
 //admin dashboard
 const dashboard = async (req, res) => {
-  res.json({message: 'admin dashboard'})
-}
+  res.json({ message: "admin dashboard" });
+};
 
 //admin profile
 const profile = async (req, res) => {
-  res.json({message: 'admin profile'})
-}
+  res.json({ message: "admin profile" });
+};
 
 module.exports = {
   loginadmin,
   dashboard,
-  profile
-}
+  profile,
+};
