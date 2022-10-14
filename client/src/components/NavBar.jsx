@@ -5,10 +5,10 @@ import IITLogo from "../images/iitm_logo.png"
 function NavBar() {
     return (
         <div>
-            <Navbar className="nav-color" variant="dark"
+            <Navbar style={{ backgroundColor: "#0077B6" }} className="nav-color" variant="dark"
                 sticky="top" expand="sm" collapseOnSelect>
                 <Navbar.Brand>
-                    <img src={IITLogo} width="40px" height="40px" />{' '}
+                    <img className='ms-2' src={IITLogo} width="40px" height="40px" />{' '}
 
                 </Navbar.Brand>
 

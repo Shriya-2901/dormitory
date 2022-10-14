@@ -7,14 +7,20 @@ import SideNav from '../components/SideNav';
 
 function Complaints() {
     return (
-        <div className="App">
+        <div className="complain">
             <NavBar />
             <NavBar1 />
-            <div className='container me-0 ms-0 mt-4'>
-                {/* <SideNav /> */}
-                <Card1 />
-                <h1 className=''>Hola</h1>
+            <div className='container mt-5 row'>
+                <h1 className='text-center mt-0'>Hola</h1>
+
+                <div className='col-12 col-lg-3 '>
+                    <SideNav />
+                </div>
+                <div className='col'>
+                    <Card1 />
+                </div>
             </div>
+
 
 
         </div>
