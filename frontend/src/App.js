@@ -12,8 +12,9 @@ function App() {
 
         <div className="pages">
           <Routes>
-            <Route path="/" element={<><h2>Home</h2></>} />
-            <Route path="/dashboard" element={<DashBoard />} />
+            <Route path="/" element={<DashBoard />} />
+            <Route path="/secretaries" element={<><h2>Secretaries</h2> </>} />
+            <Route path="/complaint" element={<><h2>Complaint</h2> </>} />
           </Routes>
         </div>
       </BrowserRouter>

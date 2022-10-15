@@ -1,6 +1,9 @@
+import { Link } from "react-router-dom";
+
 const NavBar2 = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-success">
+    <nav style={{ backgroundColor: "#0096C7" }} variant="dark"
+    sticky="top" expand="sm" className="navbar justify-content-end navbar-expand-lg">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
         </a>
@@ -18,16 +21,22 @@ const NavBar2 = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/">
+              <Link className="nav-link" to="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/dashboard">
-                DashBoard
-              </a>
+              <Link className="nav-link" to="/secretaries">
+                Secretaries
+              </Link>
             </li>
-            {/* <li className="nav-item dropdown">
+            <li className="nav-item">
+              <Link className="nav-link" to="/complaint">
+                Complaint
+              </Link>
+            </li>
+
+            <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
@@ -35,17 +44,22 @@ const NavBar2 = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown
+                More
               </a>
               <ul className="dropdown-menu">
                 <li>
                   <a className="dropdown-item" href="#">
-                    Action
+                    Websites
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    Another action
+                    Acad Calendar
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Contacts
                   </a>
                 </li>
                 <li>
@@ -53,12 +67,15 @@ const NavBar2 = () => {
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    Something else here
+                    Misc
+                  </a>
+                  <a className="dropdown-item" href="#">
+                    LogOut
                   </a>
                 </li>
               </ul>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link disabled">Disabled</a>
             </li> */}
           </ul>
