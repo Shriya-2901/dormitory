@@ -6,6 +6,7 @@ import ComplaintsDesc from "./pages/ComplaintDesc";
 import ComplaintForm from "./pages/ComplaintForm";
 import LostPage from "./pages/LostPage";
 import Complaints from "./pages/Complaints";
+import ManifestoTracker from "./pages/manifestoTracker";
 
 function App() {
   return (
@@ -18,11 +19,9 @@ function App() {
           <Routes>
             <Route path="/" element={<DashBoard />} />
             <Route
-              path="/secretaries"
+              path="/manifesto"
               element={
-                <>
-                  <h2>Secretaries</h2>{" "}
-                </>
+                <ManifestoTracker />
               }
             />
             <Route path="/complaint" element={ <Complaints/>}/>
