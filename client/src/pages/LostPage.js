@@ -11,7 +11,7 @@ function LostPage() {
         <div className='container'>
 
 
-            <h1>Sorry, wong page</h1>
+            <h1>Sorry, wrong page</h1>
         </div>
     );
 }

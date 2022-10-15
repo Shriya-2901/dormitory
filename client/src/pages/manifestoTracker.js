@@ -46,7 +46,7 @@ const ManifestoTracker = () => {
                                     <th scope="col">Status</th>
                                     <th scope="col">#</th>
                                     <th scope="col">Task</th>
-                                    <th scope="col">Isuues</th>
+                                    <th scope="col">Issues</th>
                                     <th scope="col">Remarks</th>
                                 </tr>
                             </thead>
@@ -69,7 +69,7 @@ const ManifestoTracker = () => {
                                     <td>2</td>
                                     <td>Cleaning the roof top.</td>
                                     <td>Pegion poop is there.</td>
-                                    <td>Fuck off !!</td>
+                                    <td>Hola !!</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
@@ -88,8 +88,8 @@ const ManifestoTracker = () => {
                                     </th>
                                     <td>4</td>
                                     <td>Air cleaning the sports room.</td>
-                                    <td>The hell phd students smoked till death !!</td>
-                                    <td>Need to put their corpse in the dustbin !!</td>
+                                    <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, enim! !!</td>
+                                    <td>Lorem ipsum dolor sit amet.</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
@@ -97,9 +97,9 @@ const ManifestoTracker = () => {
                                         </div>
                                     </th>
                                     <td>5</td>
-                                    <td>Forcefully drug all guys in the hostel.</td>
-                                    <td>They got some high testosterone level.</td>
-                                    <td>Will convert guys to gays just to make an even lgbtq distribution !!</td>
+                                    <td>Lorem ipsum dolor sit..</td>
+                                    <td>They got some high temp level.</td>
+                                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos? !!</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
@@ -118,7 +118,7 @@ const ManifestoTracker = () => {
                                     </th>
                                     <td>7</td>
                                     <td>This is enough da..</td>
-                                    <td>I will die one day !!</td>
+                                    <td>Apna Time Aayega !!</td>
                                     <td>I wanna sleep !!</td>
                                 </tr>
                             </tbody>
