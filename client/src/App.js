@@ -1,9 +1,9 @@
-import Complaints from "./pages/Complaints";
+import ManifestoTracker from "./pages/manifestoTracker";
 
 function App() {
   return (
     <div className="App">
-      <Complaints />
+      <ManifestoTracker />
 
     </div>
   );
