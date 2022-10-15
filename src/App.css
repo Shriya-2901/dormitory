@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
 }
+#main-body {
+  /* //make main-body of 75%of total width with all contect at center */
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+}
+#main-body-left{
+   /* left half of main-body with 3 rows */
+    width: 50%;
+    float: left;
+    height: 100%;
+    margin-left: 100px;
+    background-color: #fff;
+   justify-content: center;
+   align-items: center;
+
+    margin: 10px;
+}
+#main-body-right{
+    width: 50%;
+    float: right;
+    height: 100%;
+    background-color: #fff;
+    justify-content: center;
+   align-items: center;
+    margin: 10px;
+}
+#sec{
+    /* divide sec in 2 sections ratio 1:2*/
+    width: 70%;
+    display: flex;
+    
+    height: 100px;
+    background-color: #90E0EF;
+    border-radius: 10px;
+    margin: 7px;
+    justify-content: center;
+    align-items: center;
+
+    
+
+
+
+    
+
+}
+#sec_photo{
+    /*make a circle div*/
+    width: 100px;
+
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    margin: 0 auto;
+    padding: 0;
+    
+    overflow: hidden;
+   left: 0;
+    
+
+}
+#sec_photo>img{
+    /*make the image inside the circle div*/
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    margin: 0 auto;
+
+   
+}
+#sec_name{
+    /*make a div for the name*/
+    
+}
+footer{
+    background-color: #000000;
+    opacity: 0.8;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  #footer_right{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    
   }
-  to {
-    transform: rotate(360deg);
+  #foottext{
+    padding-right: 10px;
   }
-}
+  #headerlogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:#0077B6 ;
+    
+    
+
+  }  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    height: 50%;
+  }
+  .card>img{
+    width: 100%;
+    height: 100%;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
