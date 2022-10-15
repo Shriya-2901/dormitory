@@ -12,10 +12,9 @@ function ComplaintForm() {
         <div>
             <NavBar />
             <NavBar1 />
+            <div className='container row complaints-form'>
 
-            <div className='container mt-5 row'>
-
-                <div className='col-12 col-lg-3 me-5 ms-2 mb-4' style={{ backgroundColor: "#D9D9D9", borderRadius: "1rem" }}>
+                <div className='col-12 col-lg-3 me-5 ms-2 mb-4' style={{ backgroundColor: "#D9D9D9", borderRadius: "1rem", height: "60vh" }}>
                     <SideNav />
                 </div>
                 <div className='col'>
@@ -26,6 +25,7 @@ function ComplaintForm() {
                 <label htmlFor="email">Email</label>
                 <input type="text" id="email" placeholder='Email' onChange={(e) => setData({ ...data, email: e.target.value })} value={data.email} /> */}
                         <h1 className='title'>Complaints Form</h1>
+
                         <div className="form-group">
                             <label className='label' htmlFor="title">Title</label>
                             <input type="text" className="form-control" id="title" placeholder='Title' onChange={(e) => setData({ ...data, title: e.target.value })} value={data.title} />

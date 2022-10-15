@@ -31,10 +31,10 @@ function Complaints() {
                 </div>
 
 
-                <div className='col-12 col-lg-3 me-5 ms-2 mb-4' style={{ backgroundColor: "#D9D9D9", borderRadius: "1rem" }}>
+                <div className='col-12 col-lg-3 me-5 ms-2 mb-4' style={{ backgroundColor: "#D9D9D9", borderRadius: "1rem", height: "60vh" }}>
                     <SideNav />
                 </div>
-                <div className='col rounded mt-2' style={{ backgroundColor: "#D9D9D9" }} >
+                <div className='col rounded' style={{ backgroundColor: "#D9D9D9" }} >
                     <table className="table table-bordered ">
                         <thead className=' w-100'>
 
@@ -47,7 +47,7 @@ function Complaints() {
                         </thead>
                         <tbody>
                             {info.filter((dat) => (
-                                (dat.title).includes(search)
+                                (dat.title.toLowerCase()).includes(search.toLowerCase())
                             )).map((val, key) => {
                                 return (<tr>
                                     <Link to="/desc"><th scope="row">{key + 1}</th></Link>
