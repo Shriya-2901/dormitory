@@ -1,6 +1,6 @@
-import demo1 from "../images/blog1.jpg";
-import demo2 from "../images/blog2.jpg";
-import demo3 from "../images/blog3.jpg";
+import demo1 from "../images/gc.jpg";
+import demo2 from "../images/nac.jpg";
+import demo3 from "../images/watsa.jpg";
 
 const DashBoard = () => {
   return (
@@ -58,7 +58,7 @@ const DashBoard = () => {
 
           <div className="carousel-inner" style={{ height: "80vh" }}>
             <div className="carousel-item active bg-dark">
-              <img src={demo1} className="img-fluid d-block w-100 op70" alt="..." />
+              <img src={demo1} className="img-fluid d-block w-80 op70 ccenter" alt="..." />
               <div className="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
                 <p>
@@ -67,13 +67,13 @@ const DashBoard = () => {
               </div>
             </div>
             <div className="carousel-item bg-dark">
-              <img src={demo2} className="d-block w-100 op70" alt="..." />
-              <div className="carousel-caption d-none d-md-block">
+              <img src={demo2} className="d-block w-50 op70 ccenter" alt="..." />
+              {/* <div className="carousel-caption d-none d-md-block">
                 <h5>Second slide label</h5>
                 <p>
                   Some representative placeholder content for the second slide.
                 </p>
-              </div>
+              </div> */}
             </div>
             <div className="carousel-item bg-dark">
               <img src={demo3} className="d-block w-100 op70" alt="..." />

@@ -17,11 +17,20 @@ code {
   opacity: 70%;
 }
 
+.ccenter {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  /* width: 100%; */
+}
+
 .bannerBox {
   top: 3rem;
-  height: 70vh!important;
-  width: 30vw!important;
-  background: rgba(123, 36, 38, 0.9)!important;
+  height: 70vh !important;
+  width: 30vw !important;
+  background: rgba(123, 36, 38, 0.9) !important;
   position: absolute;
   z-index: 99;
   right: 2rem;
@@ -30,23 +39,15 @@ code {
   color: #fff;
   border-radius: 20px;
   padding: 10px;
-  overflow-y:auto;
+  overflow-y: auto;
 }
 
 .announce li {
   margin-top: 1rem;
 }
 
-@media screen and (max-width:800px) {
-  .bannerBox
-  {
+@media screen and (max-width: 800px) {
+  .bannerBox {
     font-size: 0.6em;
-
   }
-
 }
-
-
-
-
-
